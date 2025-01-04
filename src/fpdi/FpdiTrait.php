@@ -3,36 +3,36 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi;
+namespace hanhan\fpdi;
 
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReferenceException;
-use hanhan\fpdf\fpdi\PdfParser\Filter\FilterException;
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\PdfParserException;
-use hanhan\fpdf\fpdi\PdfParser\StreamReader;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfArray;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfBoolean;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfDictionary;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfHexString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObject;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfName;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNull;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNumeric;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfStream;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfToken;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfType;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfTypeException;
-use hanhan\fpdf\fpdi\PdfReader\DataStructure\Rectangle;
-use hanhan\fpdf\fpdi\PdfReader\PageBoundaries;
-use hanhan\fpdf\fpdi\PdfReader\PdfReader;
-use hanhan\fpdf\fpdi\PdfReader\PdfReaderException;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReferenceException;
+use hanhan\fpdi\PdfParser\Filter\FilterException;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\PdfParserException;
+use hanhan\fpdi\PdfParser\StreamReader;
+use hanhan\fpdi\PdfParser\Type\PdfArray;
+use hanhan\fpdi\PdfParser\Type\PdfBoolean;
+use hanhan\fpdi\PdfParser\Type\PdfDictionary;
+use hanhan\fpdi\PdfParser\Type\PdfHexString;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObject;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use hanhan\fpdi\PdfParser\Type\PdfName;
+use hanhan\fpdi\PdfParser\Type\PdfNull;
+use hanhan\fpdi\PdfParser\Type\PdfNumeric;
+use hanhan\fpdi\PdfParser\Type\PdfStream;
+use hanhan\fpdi\PdfParser\Type\PdfString;
+use hanhan\fpdi\PdfParser\Type\PdfToken;
+use hanhan\fpdi\PdfParser\Type\PdfType;
+use hanhan\fpdi\PdfParser\Type\PdfTypeException;
+use hanhan\fpdi\PdfReader\DataStructure\Rectangle;
+use hanhan\fpdi\PdfReader\PageBoundaries;
+use hanhan\fpdi\PdfReader\PdfReader;
+use hanhan\fpdi\PdfReader\PdfReaderException;
 use /* This namespace/class is used by the commercial FPDI PDF-Parser add-on. */
 /** @noinspection PhpUndefinedClassInspection */
 /** @noinspection PhpUndefinedNamespaceInspection */

@@ -3,22 +3,22 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser\Type;
+namespace hanhan\fpdi\PdfParser\Type;
 
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReferenceException;
-use hanhan\fpdf\fpdi\PdfParser\Filter\Ascii85;
-use hanhan\fpdf\fpdi\PdfParser\Filter\AsciiHex;
-use hanhan\fpdf\fpdi\PdfParser\Filter\FilterException;
-use hanhan\fpdf\fpdi\PdfParser\Filter\Flate;
-use hanhan\fpdf\fpdi\PdfParser\Filter\Lzw;
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\PdfParserException;
-use hanhan\fpdf\fpdi\PdfParser\StreamReader;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReferenceException;
+use hanhan\fpdi\PdfParser\Filter\Ascii85;
+use hanhan\fpdi\PdfParser\Filter\AsciiHex;
+use hanhan\fpdi\PdfParser\Filter\FilterException;
+use hanhan\fpdi\PdfParser\Filter\Flate;
+use hanhan\fpdi\PdfParser\Filter\Lzw;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\PdfParserException;
+use hanhan\fpdi\PdfParser\StreamReader;
 use hanhan\FpdiPdfParser\PdfParser\Filter\Predictor;
 
 /**

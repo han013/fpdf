@@ -3,20 +3,20 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser\CrossReference;
+namespace hanhan\fpdi\PdfParser\CrossReference;
 
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfDictionary;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObject;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNumeric;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfStream;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfToken;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfTypeException;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\Type\PdfDictionary;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObject;
+use hanhan\fpdi\PdfParser\Type\PdfNumeric;
+use hanhan\fpdi\PdfParser\Type\PdfStream;
+use hanhan\fpdi\PdfParser\Type\PdfToken;
+use hanhan\fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * Class CrossReference

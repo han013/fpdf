@@ -3,29 +3,29 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser;
+namespace hanhan\fpdi\PdfParser;
 
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReference;
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReferenceException;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfArray;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfBoolean;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfDictionary;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfHexString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObject;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfName;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNull;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNumeric;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfStream;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfToken;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfType;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfTypeException;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReference;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReferenceException;
+use hanhan\fpdi\PdfParser\Type\PdfArray;
+use hanhan\fpdi\PdfParser\Type\PdfBoolean;
+use hanhan\fpdi\PdfParser\Type\PdfDictionary;
+use hanhan\fpdi\PdfParser\Type\PdfHexString;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObject;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use hanhan\fpdi\PdfParser\Type\PdfName;
+use hanhan\fpdi\PdfParser\Type\PdfNull;
+use hanhan\fpdi\PdfParser\Type\PdfNumeric;
+use hanhan\fpdi\PdfParser\Type\PdfStream;
+use hanhan\fpdi\PdfParser\Type\PdfString;
+use hanhan\fpdi\PdfParser\Type\PdfToken;
+use hanhan\fpdi\PdfParser\Type\PdfType;
+use hanhan\fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * A PDF parser class

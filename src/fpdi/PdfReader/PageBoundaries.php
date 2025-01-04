@@ -3,12 +3,12 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfReader;
+namespace hanhan\fpdi\PdfReader;
 
 /**
  * An abstract class for page boundary constants and some helper methods

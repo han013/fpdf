@@ -3,15 +3,15 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser\CrossReference;
+namespace hanhan\fpdi\PdfParser\CrossReference;
 
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\StreamReader;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\StreamReader;
 
 /**
  * Class FixedReader

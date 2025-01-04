@@ -3,15 +3,15 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi;
+namespace hanhan\fpdi;
 
-use hanhan\fpdf\fpdi\Math\Matrix;
-use hanhan\fpdf\fpdi\Math\Vector;
+use hanhan\fpdi\Math\Matrix;
+use hanhan\fpdi\Math\Vector;
 
 /**
  * A simple graphic state class which holds the current transformation matrix.

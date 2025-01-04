@@ -3,32 +3,32 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfReader;
+namespace hanhan\fpdi\PdfReader;
 
-use hanhan\fpdf\fpdi\FpdiException;
-use hanhan\fpdf\fpdi\GraphicsState;
-use hanhan\fpdf\fpdi\Math\Vector;
-use hanhan\fpdf\fpdi\PdfParser\Filter\FilterException;
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\PdfParserException;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfArray;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfDictionary;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfHexString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObject;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfName;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNull;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNumeric;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfStream;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfString;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfType;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfTypeException;
-use hanhan\fpdf\fpdi\PdfReader\DataStructure\Rectangle;
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReferenceException;
+use hanhan\fpdi\FpdiException;
+use hanhan\fpdi\GraphicsState;
+use hanhan\fpdi\Math\Vector;
+use hanhan\fpdi\PdfParser\Filter\FilterException;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\PdfParserException;
+use hanhan\fpdi\PdfParser\Type\PdfArray;
+use hanhan\fpdi\PdfParser\Type\PdfDictionary;
+use hanhan\fpdi\PdfParser\Type\PdfHexString;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObject;
+use hanhan\fpdi\PdfParser\Type\PdfName;
+use hanhan\fpdi\PdfParser\Type\PdfNull;
+use hanhan\fpdi\PdfParser\Type\PdfNumeric;
+use hanhan\fpdi\PdfParser\Type\PdfStream;
+use hanhan\fpdi\PdfParser\Type\PdfString;
+use hanhan\fpdi\PdfParser\Type\PdfType;
+use hanhan\fpdi\PdfParser\Type\PdfTypeException;
+use hanhan\fpdi\PdfReader\DataStructure\Rectangle;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReferenceException;
 
 /**
  * Class representing a page of a PDF document

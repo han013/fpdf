@@ -3,16 +3,16 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser\Type;
+namespace hanhan\fpdi\PdfParser\Type;
 
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\StreamReader;
-use hanhan\fpdf\fpdi\PdfParser\Tokenizer;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\StreamReader;
+use hanhan\fpdi\PdfParser\Tokenizer;
 
 /**
  * Class representing a PDF dictionary object

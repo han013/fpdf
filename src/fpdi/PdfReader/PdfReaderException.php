@@ -3,14 +3,14 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfReader;
+namespace hanhan\fpdi\PdfReader;
 
-use hanhan\fpdf\fpdi\FpdiException;
+use hanhan\fpdi\FpdiException;
 
 /**
  * Exception for the pdf reader class

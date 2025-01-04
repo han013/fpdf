@@ -3,14 +3,14 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfParser\Filter;
+namespace hanhan\fpdi\PdfParser\Filter;
 
-use hanhan\fpdf\fpdi\PdfParser\PdfParserException;
+use hanhan\fpdi\PdfParser\PdfParserException;
 
 /**
  * Exception for filters

@@ -3,23 +3,23 @@
 /**
  * This file is part of FPDI
  *
- * @package   hanhan\fpdf\fpdi
+ * @package   hanhan\fpdi
  * @copyright Copyright (c) 2024 hanhan GmbH & Co. KG (https://www.hanhan.com)
  * @license   http://opensource.org/licenses/mit-license The MIT License
  */
 
-namespace hanhan\fpdf\fpdi\PdfReader;
+namespace hanhan\fpdi\PdfReader;
 
-use hanhan\fpdf\fpdi\PdfParser\CrossReference\CrossReferenceException;
-use hanhan\fpdf\fpdi\PdfParser\PdfParser;
-use hanhan\fpdf\fpdi\PdfParser\PdfParserException;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfArray;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfDictionary;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObject;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfIndirectObjectReference;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfNumeric;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfType;
-use hanhan\fpdf\fpdi\PdfParser\Type\PdfTypeException;
+use hanhan\fpdi\PdfParser\CrossReference\CrossReferenceException;
+use hanhan\fpdi\PdfParser\PdfParser;
+use hanhan\fpdi\PdfParser\PdfParserException;
+use hanhan\fpdi\PdfParser\Type\PdfArray;
+use hanhan\fpdi\PdfParser\Type\PdfDictionary;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObject;
+use hanhan\fpdi\PdfParser\Type\PdfIndirectObjectReference;
+use hanhan\fpdi\PdfParser\Type\PdfNumeric;
+use hanhan\fpdi\PdfParser\Type\PdfType;
+use hanhan\fpdi\PdfParser\Type\PdfTypeException;
 
 /**
  * A PDF reader class
