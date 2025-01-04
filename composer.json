@@ -1,0 +1,26 @@
+{
+    "name": "hanhan/fpdf",
+    "description": "pdf组件，支持中文",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["pdf","中文","fpdf","fpdi"],
+    "require": {
+        "php": ">=7.2",
+        "ext-zlib": "*",
+        "ext-gd": "*",
+        "tecnickcom/tcpdf": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "hanhan\\fpdf\\": "src/fpdf",
+            "hanhan\\fpdi\\": "src/fpdi"
+        }
+    },
+    "authors": [
+        {
+            "name": "张憨憨",
+            "email": "15175809883@163.com"
+        }
+    ]
+}
