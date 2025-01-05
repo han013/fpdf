@@ -1120,11 +1120,12 @@ class FPDF
             $a = $this->StdPageSizes[$size];
             return array($a[0] / $this->k, $a[1] / $this->k);
         } else {
-            if ($size[0] > $size[1]) {
-                return array($size[1], $size[0]);
-            } else {
-                return $size;
-            }
+            // if ($size[0] > $size[1]) {
+            //     return array($size[1], $size[0]);
+            // } else {
+            //     return $size;
+            // }
+            return $size;
         }
     }
 
