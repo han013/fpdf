@@ -1,7 +1,7 @@
 {
     "name": "hanhan/fpdf",
     "description": "pdf组件，支持中文",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "license": "MIT",
     "keywords": ["pdf","中文","fpdf","fpdi"],
