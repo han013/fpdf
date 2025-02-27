@@ -185,7 +185,7 @@ class PDFChinese extends FPDF
                 $sep = $i;
                 $ls = $l;
             }
-            $l += $ascii ? $cw[$c] : 1000;
+            $l += $ascii ? ($cw[$c] ?? 1000) : 1000;
             if ($l > $wmax) {
                 // Automatic line break
                 if ($sep == -1 || $i == $j) {
